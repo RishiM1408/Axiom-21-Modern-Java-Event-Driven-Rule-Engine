@@ -1,3 +1,9 @@
+<div align="center">
+  <h3>Project Views</h3>
+  <img src="https://komarev.com/ghpvc/?username=RishiM1408-axiom-21&label=Project%20Views&color=0e75b6&style=flat" alt="Project Views" />
+</div>
+
+
 # Axiom-21: Modern Java Event-Driven Rule Engine
 
 ![Axiom-21 Banner](https://placehold.co/800x200/0f0f23/00d4ff?text=Axiom-21&font=montserrat)
