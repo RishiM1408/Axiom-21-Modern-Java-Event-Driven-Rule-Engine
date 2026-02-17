@@ -79,6 +79,28 @@ _Package: `axiom-core-v21`_
 
 ---
 
+---
+
+## 🚪 Entry & Exit Points
+
+### Input (Entry)
+
+1.  **Main Engine**: `com.axiom.v21.AxiomApplication`
+    - _Role_: Starts the Kafka Streams topology.
+    - _Topic Inputs_: `transactions`, `rules` (Compacted).
+2.  **Rule Manager**: `com.axiom.rules.manager.VirtualThreadRuleManager`
+    - _Role_: Injects new rules (Virtual Threads).
+
+### Output (Exit)
+
+1.  **Sink Topic**: `alerts`
+    - _Content_: `EvaluationResult` records.
+2.  **Observability**:
+    - AKHQ UI: `http://localhost:8080`.
+    - Logs: Console Output.
+
+---
+
 ## 🛠️ Infrastructure & Setup
 
 The project creates a complete local ecosystem using Docker Compose.
