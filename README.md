@@ -1,6 +1,6 @@
 # Axiom-21: Modern Java Event-Driven Rule Engine
 
-![Axiom-21 Banner](https://placehold.co/800x200?text=Axiom-21&font=montserrat)
+![Axiom-21 Banner](https://placehold.co/800x200/0f0f23/00d4ff?text=Axiom-21&font=montserrat)
 
 > **A masterclass in modern Java architecture, demonstrating the evolution from Java 8 Streams to Java 21 Data-Oriented Programming (DOP).**
 
